@@ -130,7 +130,6 @@ div.one-third {
   max-width: 300px;
   position:relative;
   float:left;
-  margin-bottom:1.55em;
 }
 
 .features {
@@ -278,8 +277,8 @@ screen and (max-width:479px) {
   flex: 1 0 100px;
   overflow: hidden;
   position: relative;
-  max-width: 300px;
-  min-height: 250px;
+    max-width: 300px;
+  max-height: 300px;
 
   img {
     object-fit: cover;
